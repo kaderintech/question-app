@@ -3,11 +3,8 @@ package com.project.questapp.requests;
 import lombok.Data;
 
 @Data
-public class CommentCreateRequest {
+public class RefreshRequest {
 
-    Long id;
     Long userId;
-    Long postId;
-    String text;
-
+    String refreshToken;
 }
